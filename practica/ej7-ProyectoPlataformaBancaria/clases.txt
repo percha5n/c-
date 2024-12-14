@@ -1,0 +1,15 @@
+Usuario: Representa al usuario de la aplicación, incluyendo información personal y preferencias.
+
+Transacción: Modela una transacción financiera, con atributos como monto, fecha, categoría y descripción.
+
+Categoría: Define las categorías de ingresos y gastos, facilitando la clasificación y análisis de las transacciones.
+
+Presupuesto: Permite establecer límites de gasto por categoría y realiza un seguimiento del cumplimiento de los mismos.
+
+InformeFinanciero: Genera reportes y análisis financieros, como resúmenes de ingresos y gastos, gráficos de tendencias y comparativas.
+
+GestorDeDatos: Encargado de la interacción con la base de datos o almacenamiento local, facilitando operaciones como agregar, modificar y eliminar registros.
+
+InterfazDeUsuario: Proporciona métodos para interactuar con el usuario a través de la consola, mostrando menús, solicitando entradas y presentando resultados.
+
+Controlador: Coordina la interacción entre las clases anteriores, gestionando la lógica de negocio y el flujo de la aplicación.
