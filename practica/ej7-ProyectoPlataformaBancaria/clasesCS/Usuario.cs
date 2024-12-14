@@ -42,7 +42,6 @@ namespace DatosPersonas.Modelos
         public string Fecha { get; set; }
         public string Categoria { get; set; }
         public string Descripcion { get; set; }
-
         public string IdTransaccion { get; set; }
         public string CuentaOrigen { get; set; }
         public string CuentaDestino { get; set; }
