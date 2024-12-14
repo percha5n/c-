@@ -1,0 +1,14 @@
+/home/ezzz3/c#/practica/ej3/obj/Debug/net7.0/ej3.GeneratedMSBuildEditorConfig.editorconfig
+/home/ezzz3/c#/practica/ej3/obj/Debug/net7.0/ej3.AssemblyInfoInputs.cache
+/home/ezzz3/c#/practica/ej3/obj/Debug/net7.0/ej3.AssemblyInfo.cs
+/home/ezzz3/c#/practica/ej3/obj/Debug/net7.0/ej3.csproj.CoreCompileInputs.cache
+/home/ezzz3/c#/practica/ej3/bin/Debug/net7.0/ej3
+/home/ezzz3/c#/practica/ej3/bin/Debug/net7.0/ej3.deps.json
+/home/ezzz3/c#/practica/ej3/bin/Debug/net7.0/ej3.runtimeconfig.json
+/home/ezzz3/c#/practica/ej3/bin/Debug/net7.0/ej3.dll
+/home/ezzz3/c#/practica/ej3/bin/Debug/net7.0/ej3.pdb
+/home/ezzz3/c#/practica/ej3/obj/Debug/net7.0/ej3.dll
+/home/ezzz3/c#/practica/ej3/obj/Debug/net7.0/refint/ej3.dll
+/home/ezzz3/c#/practica/ej3/obj/Debug/net7.0/ej3.pdb
+/home/ezzz3/c#/practica/ej3/obj/Debug/net7.0/ej3.genruntimeconfig.cache
+/home/ezzz3/c#/practica/ej3/obj/Debug/net7.0/ref/ej3.dll

@@ -27,16 +27,3 @@ public class GastosController : Controller
         return View(gasto); // Si no es válido, vuelve a mostrar el formulario con los datos ingresados
     }
 }
-
-[[HttpPost]]
-private class Aux : aux{
-
-    public aux1(){
-        catch(  ){
-            
-        }
-        if(  ){
-
-        }
-    }
-} 
