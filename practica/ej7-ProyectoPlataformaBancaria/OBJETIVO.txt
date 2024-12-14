@@ -1,0 +1,44 @@
+Enunciado del Proyecto: Plataforma de Finanzas Personales para Terminales de Línea de Comandos
+
+Objetivo: Desarrollar una aplicación de consola en C# que permita a los usuarios gestionar sus finanzas personales de manera eficiente, ofreciendo funcionalidades 
+como el seguimiento de ingresos y gastos, la elaboración de presupuestos y la generación de informes financieros detallados, todo a través de una interfaz de línea 
+de comandos.
+
+Requisitos Funcionales:
+
+    1_Gestión de Transacciones:
+        Registrar ingresos y gastos, especificando monto, fecha, categoría y descripción.
+        Visualizar un historial completo de transacciones con opciones de filtrado por fecha, categoría o monto.
+
+    2_Elaboración de Presupuestos:
+        Definir presupuestos mensuales por categoría de gasto.
+        Recibir alertas cuando los gastos se aproximen o excedan los límites presupuestarios establecidos.
+
+    3_Análisis Financiero:
+        Generar informes que muestren patrones de gasto, tendencias y comparativas en diferentes períodos.
+        Proporcionar resúmenes financieros con indicadores clave como ahorro mensual, gastos totales y saldo disponible.
+
+    4_Seguridad y Privacidad:
+        Implementar autenticación mediante contraseñas seguras para acceder a la aplicación.
+        Almacenar los datos de manera encriptada para garantizar la confidencialidad de la información financiera.
+
+    5_Interfaz de Usuario:
+        Diseñar una interfaz de línea de comandos intuitiva y fácil de usar, con menús y opciones claras.
+        Ofrecer ayuda en línea y documentación accesible desde la propia aplicación.
+
+    6_Exportación de Datos:
+        Permitir la exportación de informes y datos a formatos como CSV o PDF para su análisis externo.
+
+Requisitos No Funcionales:
+
+    Portabilidad: La aplicación debe ser compatible con sistemas operativos Windows, macOS y Linux.
+    Rendimiento: La aplicación debe ser capaz de manejar grandes volúmenes de datos sin afectar su rendimiento.
+    Mantenibilidad: El código debe estar bien documentado y estructurado para facilitar futuras actualizaciones y mejoras.
+
+Consideraciones Adicionales:
+
+    Integración con APIs Bancarias: Explorar la posibilidad de integrar la aplicación con APIs bancarias para importar transacciones automáticamente, 
+    similar a lo que ofrecen aplicaciones como Fintonic
+    Revista Economía
+    .
+    Accesibilidad: Garantizar que la aplicación sea accesible para personas con discapacidades, cumpliendo con los estándares de accesibilidad.
