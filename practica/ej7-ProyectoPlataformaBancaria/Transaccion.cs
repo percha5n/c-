@@ -14,8 +14,8 @@ public class HacerTransaccionFinanciera
         transacciones = new List<DatosDeTransaccion>();
 
         // Agregar algunos usuarios de ejemplo
-        usuarios.Add(new DatosPersonales("Juan", "Pérez", "Calle Falsa 123", "123456789", "juan@example.com", 30));
-        usuarios.Add(new DatosPersonales("Ana", "Gómez", "Avenida Siempre Viva 742", "987654321", "ana@example.com", 25));
+        usuarios.Add(new DatosPersonales("Juan", "Perez", "Calle Falsa 123", "123456789", "juan@example.com", 30));
+        usuarios.Add(new DatosPersonales("Ana", "Gomez", "Avenida Siempre Viva 742", "987654321", "ana@example.com", 25));
     }
 
     public void HacerTransaccion(int idUsuario, float monto, string tipoTrans, string fechaTrans, string categoria, string descripcion)
@@ -48,11 +48,11 @@ public class HacerTransaccionFinanciera
 
             // agregar la transacción a la lista
             transacciones.Add(transaccion);
-            Console.WriteLine("Transacción realizada con éxito.");
+            Console.WriteLine("Transaccion realizada con exito.");
         }
         else
         {
-            Console.WriteLine("No se encontró el usuario.");
+            Console.WriteLine("No se encontro el usuario.");
         }
     }
 
@@ -71,7 +71,7 @@ public class HacerTransaccionFinanciera
         foreach (var transaccion in transacciones)
         {
             Console.WriteLine($"ID: {transaccion.IdTransaccion}, Monto: {transaccion.MontoEspecifico}, Fecha: {transaccion.Fecha}, " +
-                              $"Categoría: {transaccion.Categoria}, Descripción: {transaccion.Descripcion}, Estado: {transaccion.Estado}");
+                              $"Categoria: {transaccion.Categoria}, Descripcion: {transaccion.Descripcion}, Estado: {transaccion.Estado}");
         }
     }
 
@@ -80,8 +80,8 @@ public class HacerTransaccionFinanciera
         Console.WriteLine("Lista de Usuarios:");
         foreach (var usuario in usuarios)
         {
-            Console.WriteLine($"Nombre: {usuario.Nombre}, Apellido: {usuario.Apellido}, Dirección: {usuario.Direccion}, " +
-                              $"Teléfono: {usuario.Telefono}, Correo: {usuario.Correo}, Edad: {usuario.Edad}");
+            Console.WriteLine($"Nombre: {usuario.Nombre}, Apellido: {usuario.Apellido}, Direccion: {usuario.Direccion}, " +
+                              $"Telefono: {usuario.Telefono}, Correo: {usuario.Correo}, Edad: {usuario.Edad}");
         }
     }
 }
