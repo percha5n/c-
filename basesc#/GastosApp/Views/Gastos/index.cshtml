@@ -1,0 +1,39 @@
+@using Espacio1.Models
+@model List<Gasto>
+
+<h1>Lista de Gastos</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Descripción</th>
+            <th>Monto</th>
+            <th>Fecha</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var gasto in Model){
+            <tr>
+                <td>@gasto.Descripcion</td>
+                <td>@gasto.Monto</td>
+                <td>@gasto.Fecha.ToShortDateString()</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h2>Agregar Gasto</h2>
+<form asp-action="Create" method="post">
+    <div>
+        <label>Descripción</label>
+        <input asp-for="Descripcion" required />
+    </div>
+    <div>
+        <label>Monto</label>
+        <input asp-for="Monto" type="number" step="0.01" required />
+    </div>
+    <div>
+        <label>Fecha</label>
+        <input asp-for="Fecha" type="date" required />
+    </div>
+    <button type="submit">Agregar Gasto</button>
+</form>

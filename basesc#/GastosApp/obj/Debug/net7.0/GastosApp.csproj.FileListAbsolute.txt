@@ -1,0 +1,7 @@
+/home/ezzz3/c#/basesc#/GastosApp/obj/Debug/net7.0/GastosApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/ezzz3/c#/basesc#/GastosApp/obj/Debug/net7.0/GastosApp.AssemblyInfoInputs.cache
+/home/ezzz3/c#/basesc#/GastosApp/obj/Debug/net7.0/GastosApp.AssemblyInfo.cs
+/home/ezzz3/c#/basesc#/GastosApp/obj/Debug/net7.0/GastosApp.csproj.CoreCompileInputs.cache
+/home/ezzz3/c#/basesc#/GastosApp/obj/Debug/net7.0/GastosApp.MvcApplicationPartsAssemblyInfo.cache
+/home/ezzz3/c#/basesc#/GastosApp/obj/Debug/net7.0/GastosApp.RazorAssemblyInfo.cache
+/home/ezzz3/c#/basesc#/GastosApp/obj/Debug/net7.0/GastosApp.RazorAssemblyInfo.cs
