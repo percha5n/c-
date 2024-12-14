@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ezzz3/c#/practica/ej7/ej7.csproj": {}
+    "/home/ezzz3/c#/practica/ej7-ProyectoPlataformaBancaria/ej7.csproj": {}
   },
   "projects": {
-    "/home/ezzz3/c#/practica/ej7/ej7.csproj": {
+    "/home/ezzz3/c#/practica/ej7-ProyectoPlataformaBancaria/ej7.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ezzz3/c#/practica/ej7/ej7.csproj",
+        "projectUniqueName": "/home/ezzz3/c#/practica/ej7-ProyectoPlataformaBancaria/ej7.csproj",
         "projectName": "ej7",
-        "projectPath": "/home/ezzz3/c#/practica/ej7/ej7.csproj",
+        "projectPath": "/home/ezzz3/c#/practica/ej7-ProyectoPlataformaBancaria/ej7.csproj",
         "packagesPath": "/home/ezzz3/.nuget/packages/",
-        "outputPath": "/home/ezzz3/c#/practica/ej7/obj/",
+        "outputPath": "/home/ezzz3/c#/practica/ej7-ProyectoPlataformaBancaria/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ezzz3/.nuget/NuGet/NuGet.Config"

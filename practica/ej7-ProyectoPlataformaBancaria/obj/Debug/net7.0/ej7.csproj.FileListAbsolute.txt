@@ -1,0 +1,14 @@
+/home/ezzz3/c#/practica/ej7-ProyectoPlataformaBancaria/obj/Debug/net7.0/ej7.GeneratedMSBuildEditorConfig.editorconfig
+/home/ezzz3/c#/practica/ej7-ProyectoPlataformaBancaria/obj/Debug/net7.0/ej7.AssemblyInfoInputs.cache
+/home/ezzz3/c#/practica/ej7-ProyectoPlataformaBancaria/obj/Debug/net7.0/ej7.AssemblyInfo.cs
+/home/ezzz3/c#/practica/ej7-ProyectoPlataformaBancaria/obj/Debug/net7.0/ej7.csproj.CoreCompileInputs.cache
+/home/ezzz3/c#/practica/ej7-ProyectoPlataformaBancaria/bin/Debug/net7.0/ej7
+/home/ezzz3/c#/practica/ej7-ProyectoPlataformaBancaria/bin/Debug/net7.0/ej7.deps.json
+/home/ezzz3/c#/practica/ej7-ProyectoPlataformaBancaria/bin/Debug/net7.0/ej7.runtimeconfig.json
+/home/ezzz3/c#/practica/ej7-ProyectoPlataformaBancaria/bin/Debug/net7.0/ej7.dll
+/home/ezzz3/c#/practica/ej7-ProyectoPlataformaBancaria/bin/Debug/net7.0/ej7.pdb
+/home/ezzz3/c#/practica/ej7-ProyectoPlataformaBancaria/obj/Debug/net7.0/ej7.dll
+/home/ezzz3/c#/practica/ej7-ProyectoPlataformaBancaria/obj/Debug/net7.0/refint/ej7.dll
+/home/ezzz3/c#/practica/ej7-ProyectoPlataformaBancaria/obj/Debug/net7.0/ej7.pdb
+/home/ezzz3/c#/practica/ej7-ProyectoPlataformaBancaria/obj/Debug/net7.0/ej7.genruntimeconfig.cache
+/home/ezzz3/c#/practica/ej7-ProyectoPlataformaBancaria/obj/Debug/net7.0/ref/ej7.dll
