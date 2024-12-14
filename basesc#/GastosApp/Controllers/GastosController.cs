@@ -7,23 +7,22 @@ public class GastosController : Controller
 
     // Constructor
     public GastosController(){
-        _gastosServicio = new GastosService(); // Asegurate de que el nombre del servicio sea correcto
-    }
-    // Acción para mostrar el formulario de creación
-    [HttpGet]
-    public IActionResult Create(){
-        return View(new Gasto()); // Devuelve una nueva instancia de Gasto para el formulario
+        _gastosServicio = new GastosService(); 
     }
 
-    // Acción para manejar el envío del formulario
+    [HttpGet]
+    public IActionResult Create(){
+        return View(new Gasto()); 
+    }
+
     [HttpPost]
     public IActionResult Create(Gasto gasto)
     {
-        if (ModelState.IsValid) // Verifica si el modelo es válido
+        if (ModelState.IsValid) 
         {
             _gastosServicio.AgregarGastos(gasto);
-            return RedirectToAction("Index"); // Redirige a la lista de gastos
+            return RedirectToAction("Index");
         }
-        return View(gasto); // Si no es válido, vuelve a mostrar el formulario con los datos ingresados
+        return View(gasto); 
     }
 }
