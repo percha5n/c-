@@ -12,8 +12,10 @@ namespace DatosPersonas.Modelos
         public string Telefono { get; set; }
         public string Correo { get; set; }
         public int Edad { get; set; }
+        public string Nacionalidad { get; set; }
+        public string Dni{get;set;}
 
-        public DatosPersonales(string nombre, string apellido, string direccion, string telefono, string correo, int edad)
+        public DatosPersonales(string nombre, string apellido, string direccion, string telefono, string correo, int edad, string nacionalidad, string dni)
         {
             Nombre = nombre;
             Apellido = apellido;
@@ -21,6 +23,8 @@ namespace DatosPersonas.Modelos
             Telefono = telefono;
             Correo = correo;
             Edad = edad;
+            Nacionalidad = nacionalidad;
+            Dni = dni;
         }
 
         public DatosPersonales()
@@ -31,6 +35,8 @@ namespace DatosPersonas.Modelos
             Telefono = "";
             Correo = "";
             Edad = 0;
+            Nacionalidad = "";
+            Dni = "";
         }
     }
 
