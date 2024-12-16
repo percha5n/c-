@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using DatosPersonas.Modelos;
 using FuncionDeTransacciones.Modelos;
+using PresupuestoDeCategorias.modelos;
 class Program{
     static void Main(string[] args){
         HacerTransaccionFinanciera gestorTransacciones = new HacerTransaccionFinanciera();
+        GestorDePresupuestos gestorPresupuestos = new GestorDePresupuestos();
+
         int opcion;
         do
         {
@@ -16,6 +19,8 @@ class Program{
             Console.WriteLine("4. Buscar Transacción por Fecha");
             Console.WriteLine("5. Buscar por Categoría");
             Console.WriteLine("6. Buscar por Monto");
+            Console.WriteLine("7. Agregar presupuesto");
+            Console.WriteLine("8. Agregar Monto");
             Console.WriteLine("0. Salir");
             Console.Write("Seleccione una opción: ");            
             if (int.TryParse(Console.ReadLine(), out opcion)){
@@ -51,6 +56,12 @@ class Program{
                     case 6:
                         gestorTransacciones.BuscarPorMonto();
                         break;
+                    case 7:
+                        //agregar funcion
+                    break;
+                    case 8:
+                        //agregar funcion 
+                    break;
                     case 0:
                         Console.WriteLine("Saliendo...");
                         break;

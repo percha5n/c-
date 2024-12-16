@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace DatosPersonas.Modelos
-{
+namespace DatosPersonas.Modelos{
     public class DatosPersonales
     {
         public string Nombre { get; set; }
@@ -83,6 +82,29 @@ namespace DatosPersonas.Modelos
             CuentaDestino = "";
             MetodoDePago = "";
             Estado = "";
+        }
+    }
+
+    public class PresupuestoMensual{
+        public string Categoria { get; set; }
+        public decimal Limite{ get; set; }
+        public decimal GastoActual { get; set; }
+        public PresupuestoMensual(string categoria, decimal limite){
+            Categoria = categoria;
+            Limite = limite;
+            GastoActual = 0;        
+        }
+
+        public void AgregarGasto(decimal monto){
+            GastoActual += monto;
+        }
+
+        public bool EstaCercaDelLimite(){
+            return GastoActual >= Limite * 0.9m;
+        }
+
+        public bool ExeceElLimite(){
+            return GastoActual > Limite;
         }
     }
 }

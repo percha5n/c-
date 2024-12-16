@@ -123,6 +123,7 @@ namespace FuncionDeTransacciones.Modelos{
                                 $"Nacionalidad: {usuario.Nacionalidad}, DNI: {usuario.Dni}");
             }
         }
+        
     }
 
 }
