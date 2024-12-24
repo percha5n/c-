@@ -27,5 +27,11 @@ namespace PresupuestoDeCategorias.modelos{
                         }
                 }
             }
+
+            public void MostrarPresupuestos(){
+                foreach (var item in presupuesto){
+                    Console.WriteLine($"Categoria: {item.Categoria} Limite: {item.Limite}");
+                }
+            }
     }
 }

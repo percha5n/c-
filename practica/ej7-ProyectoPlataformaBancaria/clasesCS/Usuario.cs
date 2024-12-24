@@ -52,7 +52,6 @@ namespace DatosPersonas.Modelos{
         public string CuentaDestino { get; set; }
         public string MetodoDePago { get; set; }
         public string Estado { get; set; }
-
         public DatosDeTransaccion(int ingresos, int gastos, float montoEspecifico, string fecha, string categoria, string descripcion, string idTransaccion,
             string cuentaOrigen, string cuentaDestino, string metodoDePago, string estado)
         {
@@ -92,7 +91,7 @@ namespace DatosPersonas.Modelos{
         public PresupuestoMensual(string categoria, decimal limite){
             Categoria = categoria;
             Limite = limite;
-            GastoActual = 0;        
+            GastoActual = 0;
         }
 
         public void AgregarGasto(decimal monto){

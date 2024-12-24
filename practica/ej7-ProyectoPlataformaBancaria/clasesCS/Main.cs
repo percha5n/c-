@@ -21,6 +21,7 @@ class Program{
             Console.WriteLine("6. Buscar por Monto");
             Console.WriteLine("7. Agregar presupuesto");
             Console.WriteLine("8. Agregar Monto");
+            Console.WriteLine("9. Mostrar Presupuesto");
             Console.WriteLine("0. Salir");
             Console.Write("Seleccione una opción: ");            
             if (int.TryParse(Console.ReadLine(), out opcion)){
@@ -57,11 +58,34 @@ class Program{
                         gestorTransacciones.BuscarPorMonto();
                         break;
                     case 7:
-                        //agregar funcion
-                    break;
+                        Console.Write("Ingrese la categoría del presupuesto: ");
+                        string categoriaPresupuesto = Console.ReadLine() ?? string.Empty;
+                        Console.Write("Ingrese el monto del presupuesto: ");
+                        if (decimal.TryParse(Console.ReadLine(), out decimal montoPresupuesto))
+                        {
+                            gestorPresupuestos.AgregarPresupuesto(categoriaPresupuesto, montoPresupuesto);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Monto no válido. Por favor, ingrese un número.");
+                        }
+                        break;
                     case 8:
-                        //agregar funcion 
-                    break;
+                        Console.Write("Ingrese la categoría del gasto: ");
+                        string categoriaGasto = Console.ReadLine() ?? string.Empty;
+                        Console.Write("Ingrese el monto del gasto: ");
+                        if (decimal.TryParse(Console.ReadLine(), out decimal montoGasto))
+                        {
+                            gestorPresupuestos.AgregarGastos(categoriaGasto, montoGasto);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Monto no valido. Por favor, ingrese un numero.");
+                        }
+                        break;
+                    case 9:
+                        //insertar funcion
+                        break;
                     case 0:
                         Console.WriteLine("Saliendo...");
                         break;
